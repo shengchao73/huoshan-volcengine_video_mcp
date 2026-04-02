@@ -1,12 +1,11 @@
 {
   "mcpServers": {
     "huoshan_video": {
+      "type": "stdio",
       "command": "python",
       "args": [
-        "-m",
-        "src.server"
+        "E:\\xxx\\xxx\\xxx\\huoshan-volcengine_video_mcp\\run.py"
       ],
-      "cwd": "E:\\CherryStudioDaTa\\Agent\\论文\\huoshan_mcp",
       "env": {
         "VOLCES_API_KEY": "your_api_key_here"
       }
