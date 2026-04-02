@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "huoshan_video": {
+      "command": "python",
+      "args": [
+        "-m",
+        "src.server"
+      ],
+      "cwd": "E:\\CherryStudioDaTa\\Agent\\论文\\huoshan_mcp",
+      "env": {
+        "VOLCES_API_KEY": "your_api_key_here"
+      }
+    }
+  }
+}
